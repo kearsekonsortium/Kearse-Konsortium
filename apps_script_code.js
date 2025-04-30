@@ -22,7 +22,7 @@ function sendThankYouEmail(e) {
     htmlBody: htmlMessageApplicant
   });
 
-  var internalEmail = "yourteam@kearsekonsortium.com"; 
+  var internalEmail = "kearsekonsortium@proton.me"; 
   var subjectInternal = "New Contractor Application Submitted";
   var bodyInternal = `A new contractor has applied:\n\nName: ${name}\nEmail: ${email}\n\nCheck the spreadsheet for full details.`;
 
